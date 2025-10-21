@@ -17,15 +17,15 @@ PriceGPT is a **large language model pipeline** for predicting product prices fr
 
 ## Project Structure
 .
--finetuning.ipynb # Notebook for LoRA fine-tuning.
--testing.ipynb # Notebook for batch inference.
--train_final.csv # Original training CSV (catalog + price).
--testCleaned.csv # Cleaned test data for inference.
--train_llama2_numeric.jsonl # Training JSONL for LLM.
--validation_llama2_numeric.jsonl.
--test_llama2_numeric.jsonl.
--llama3_price_model # Saved LoRA adapter (checkpoint).
--predictions_25k.csv # Output predictions from test set.
+├── finetuning.ipynb                 # Notebook for LoRA fine-tuning
+├── testing.ipynb                    # Notebook for batch inference
+├── train_final.csv                  # Original training CSV (catalog + price)
+├── testCleaned.csv                  # Cleaned test data for inference
+├── train_llama2_numeric.jsonl       # Training JSONL for LLM
+├── validation_llama2_numeric.jsonl # Validation JSONL for LLM
+├── test_llama2_numeric.jsonl        # Test JSONL for LLM
+├── llama3_price_model               # Saved LoRA adapter (checkpoint)
+└── predictions_25k.csv              # Output predictions from test set
 
 All other files are uploaded on drive 
 Link:-
